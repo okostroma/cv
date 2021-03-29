@@ -1,0 +1,427 @@
+.App {
+  background-color: #E3E3E3;
+}
+
+a {
+  text-transform: none;
+  text-decoration: none;
+  color: #242424;
+  opacity: 0.9;
+}
+
+.App-mainPhoto {
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+
+.mainImg {
+  width: 100%;
+}
+
+p {
+  margin: 0;
+  color: #242424;
+  opacity: 0.9;
+}
+
+a:hover {
+  color: #DC212D;
+  opacity: 1;
+}
+.grey {
+  width: 100%;
+  height: 100%;
+  top: 500px;
+  background-color: #E8E8E8;
+  opacity: 0.65;
+  position: absolute;
+}
+
+.profile {
+  max-width: 440px;
+  background-color: #FDFDFD;
+  padding-top: 60px;
+  padding-left: 80px;
+  padding-bottom: 60px;
+  position: absolute;
+  top: 60px;
+  left: 100px;
+}
+
+.cv {
+  position: absolute;
+  left: -50px;
+  height: 800px;
+}
+
+.profile .name {
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #242424;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 17px;
+  margin-bottom: 15px;
+}
+
+.profile .job {
+  color: #DC212D;
+}
+
+.mailIcon {
+  width: 20px;
+  margin-right: 33px;
+}
+
+.profile .contacts {
+  display: flex;
+  flex-direction: column;
+  margin-top: 44px;
+  margin-bottom: 200px;
+}
+
+.profile .contactsItem {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+
+}
+
+.title {
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #242424;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+  line-height: 145%;
+}
+
+.title:after {
+  display: block;
+  content: '';
+  height: 1px;
+  background-color: #242424;
+  margin-top: 20px;
+}
+
+.titleDescription {
+  max-width: 300px;
+  margin-right: 50px;
+  margin-top: 30px;
+  line-height: 145%;
+  margin-bottom: 100px;
+}
+
+.skillsContainer {
+  margin-top: 40px;
+  margin-bottom: 120px;
+}
+
+.skillsItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.figma {
+  //margin-left: 50px;
+  width: 200px;
+}
+
+.contactsTitle {
+  margin-bottom: 40px;
+}
+
+.profile .cFooter {
+  margin-bottom: 330px;
+}
+
+.bioContainer {
+  position: absolute;
+  top: 550px;
+  left: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bio {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.experienceContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.experienceItem {
+  margin-bottom: 35px;
+  display: flex;
+  flex-direction: column;
+}
+.period {
+  font-weight: 500;
+  line-height: 11px;
+  color: #DC212D;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.place {
+  font-weight: 500;
+  line-height: 11px;
+  color: #242424;
+  font-size: 20px;
+  margin-bottom: 11px;
+}
+
+.vacancy {
+  margin-bottom: 10px;
+}
+
+.experienceImg {
+  width: 20px;
+  margin-right: 100px;
+}
+
+.line {
+  height: 1px;
+  background-color: #242424;
+  margin-bottom: 15px;
+}
+
+.interest {
+  text-transform: uppercase;
+  color: #DC212D;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  line-height: 11px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.inspirationIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.inspirationIcons img:hover {
+  color: #DC212D;
+
+}
+
+.behanceBlack {
+  width: 30px;
+  margin-right: 15px;
+}
+.behanceBlack:hover {
+  color: #DC212D;
+}
+
+.dribble {
+  width: 25px;
+  margin-right: 20px;
+}
+
+.awwwards {
+  height: 20px;
+}
+
+.last {
+  margin-bottom: 0px;
+
+}
+
+@media (min-width: 1920px) {
+  .bioContainer {
+    left: 700px;
+    top: 700px;
+  }
+  .grey {
+    top: 650px;
+  }
+
+  .profile {
+    top: 210px;
+
+  }
+
+}
+@media (min-width: 1000px) and (max-width: 1190px) {
+  .profile {
+    padding-left: 50px;
+    left: 60px;
+  }
+
+  .cv {
+    left: -30px;
+    height: 500px;
+  }
+
+  .bioContainer {
+    left: 500px;
+  }
+
+  .experienceImg {
+    width: 20px;
+    margin-right: 60px;
+  }
+
+}
+
+@media (max-width: 1023px) {
+  .profile {
+    top: 300px;
+    padding-bottom: 0;
+
+  }
+
+  .grey {
+    top: 250px;
+    width: 100%;
+  }
+
+  .bioContainer {
+    max-width: 90%;
+    top: 2050px;
+    left: 10px;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .profile .cFooter {
+    margin-bottom: 20px;
+  }
+
+  .experienceImg {
+    width: 30px;
+    margin-right: 100px;
+    margin-left: 50px;
+  }
+}
+
+
+@media (max-width: 760px) {
+  .profile {
+    max-width: 70%;
+    padding-left: 30px;
+    left: 12%;
+    top: 200px;
+    padding-bottom: 0;
+
+  }
+
+  .cv {
+    left: -20px;
+    height: 300px;
+  }
+
+  .grey {
+    top: 160px;
+    width: 100%;
+  }
+
+  .profile .name {
+    line-height: 120%;
+  }
+
+  .mailIcon {
+    width: 20px;
+    margin-right: 23px;
+  }
+
+  .contactsItem a {
+    font-size: 16px;
+  }
+
+  .bioContainer {
+    max-width: 90%;
+    top: 1850px;
+    left: 10px;
+  }
+
+  .footer {
+    display: none;
+  }
+  .profile .cFooter {
+    margin-bottom: 20px;
+  }
+
+  .figma {
+    width: 105px;
+  }
+
+  .experienceImg {
+    width: 30px;
+    margin-right: 50px;
+    margin-left: 10px;
+  }
+
+  .place {
+    line-height: 120%;
+
+  }
+  .profile .contacts {
+    margin-bottom: 50px;
+
+  }
+  .profile .contacts p{
+    font-size: 16px;
+
+  }
+
+
+  .titleDescription {
+    margin-right: 20px;
+
+  }
+
+  .experienceItem a {
+    font-size: 16px;
+  }
+
+  .experienceItem p {
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .contactsItem a {
+    font-size: 13px;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .profile .contacts p{
+    font-size: 13px;
+
+  }
+
+
+  .experienceItem a {
+    font-size: 13px;
+  }
+
+  .experienceItem p {
+    font-size: 13px;
+  }
+
+  .experienceImg {
+    margin-right: 30px;
+
+  }
+}

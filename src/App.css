@@ -359,7 +359,8 @@ a:hover {
   }
 
   .figma {
-    width: 105px;
+    width: 120px;
+
   }
 
   .experienceImg {
@@ -393,6 +394,10 @@ a:hover {
 
   .experienceItem p {
     font-size: 16px;
+  }
+
+  .skillsItem {
+    width: 85%;
   }
 }
 

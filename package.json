@@ -1,6 +1,6 @@
 {
   "name": "cv",
-  "homepage": "https://okostroma.github.io/curriculum-vitae/",
+  "homepage": "https://okostroma.github.io/cv",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
